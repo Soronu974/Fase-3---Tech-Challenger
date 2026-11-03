@@ -1,0 +1,33 @@
+{
+  "linhas": 144,
+  "colunas": 30,
+  "anos": [
+    2023,
+    2024
+  ],
+  "ufs": 25,
+  "redes": [
+    2,
+    3,
+    5
+  ],
+  "duplicatas_chave": 0,
+  "nulos_por_coluna": {
+    "var_taxa_pp_2023_2024": 74,
+    "var_media_2023_2024": 74,
+    "proporcao_aluno_nivel_0": 70,
+    "proporcao_aluno_nivel_1": 70,
+    "proporcao_aluno_nivel_2": 70,
+    "proporcao_aluno_nivel_3": 70,
+    "proporcao_aluno_nivel_4": 70,
+    "proporcao_aluno_nivel_5": 70,
+    "proporcao_aluno_nivel_6": 70,
+    "proporcao_aluno_nivel_7": 70,
+    "proporcao_aluno_nivel_8": 70
+  },
+  "linhas_com_distribuicao_niveis": 74,
+  "soma_niveis_min_max": [
+    99.97999999999999,
+    100.02000000000001
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "limiar": 50.0,
+  "n_repeats": 5,
+  "modelo_final": "regressao_logistica",
+  "conjunto_final": "temporal",
+  "modelo_explicativo": "regressao_logistica",
+  "corte_taxa_anterior_p50": null,
+  "params_final": {
+    "model__C": 0.1
+  },
+  "params_explicativo": {
+    "model__C": 0.1
+  },
+  "cv_auc_final": 0.8848958333333333,
+  "silhouette": {
+    "2": 0.26096342524208166,
+    "3": 0.2947965737480155,
+    "4": 0.2743193120373344,
+    "5": 0.291175980395746
+  },
+  "k_clusters": 3,
+  "shap": "shap não instalado: usando importância por permutação (pip install shap para habilitar)",
+  "prevalencia_temporal": 0.6621621621621622,
+  "n_temporal": 74
+}

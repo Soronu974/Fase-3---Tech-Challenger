@@ -1,0 +1,24 @@
+[15:26:40] Gold carregada: 144 linhas, 25 UFs
+[15:26:41] EDA e testes de hipótese concluídos
+[15:26:41] [estrutural] n=144 | prevalência classe 1 = 0.65 | repetições = 5
+[15:26:43]    baseline_dummy         AUC=0.449±0.007 (2s)
+[15:26:49]    regressao_logistica    AUC=0.587±0.037 (7s)
+[15:27:45]    random_forest          AUC=0.595±0.032 (56s)
+[15:28:25]    gradient_boosting      AUC=0.626±0.033 (39s)
+[15:28:25] [temporal] n=74 | prevalência classe 1 = 0.66 | repetições = 5
+[15:28:26]    baseline_dummy         AUC=0.413±0.003 (2s)
+[15:28:34]    regressao_logistica    AUC=0.842±0.009 (7s)
+[15:29:29]    random_forest          AUC=0.813±0.009 (56s)
+[15:30:09]    gradient_boosting      AUC=0.812±0.008 (40s)
+[15:30:09] [temporal_parcimonioso] n=74 | prevalência classe 1 = 0.66 | repetições = 5
+[15:30:10]    baseline_dummy         AUC=0.413±0.003 (1s)
+[15:30:15]    regressao_logistica    AUC=0.799±0.020 (5s)
+[15:30:15] [vazamento_demo] n=144 | prevalência classe 1 = 0.65 | repetições = 2
+[15:30:16]    baseline_dummy         AUC=0.452±0.007 (1s)
+[15:30:19]    regressao_logistica    AUC=0.965±0.004 (3s)
+[15:30:43]    random_forest          AUC=0.975±0.004 (24s)
+[15:31:00]    gradient_boosting      AUC=0.973±0.007 (16s)
+[15:31:00] Modelo final: regressao_logistica no conjunto 'temporal' (AUC nested CV = 0.842)
+[15:31:20] shap não instalado: usando importância por permutação (pip install shap para habilitar)
+[15:31:20] Clusters: k=3, silhouette={2: 0.26096342524208166, 3: 0.2947965737480155, 4: 0.2743193120373344, 5: 0.291175980395746}
+[15:31:20] Pipeline concluída.

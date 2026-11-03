@@ -1,0 +1,19 @@
+variavel,coeficiente (log-odds por desvio-padrão)
+lag_media,0.49657259367544493
+lag_diff_vs_media_ufs,0.3906830320269691
+lag_taxa,0.3695895235961744
+lag_ranking_pct,-0.3561825016732059
+regiao_Sudeste,0.22897885224965983
+regiao_Sul,-0.17329703524149973
+regiao_Norte,-0.11563830457901854
+regiao_Centro-Oeste,0.07115177770893064
+lag_media_regiao,-0.05194243983536556
+rede_descricao_Pública (estadual + municipal),0.038370419290590735
+rede_descricao_Municipal,-0.027605064958448826
+regiao_Nordeste,-0.011593717800571161
+rede_descricao_Estadual,-0.011163781994640869
+missingindicator_lag_ranking_pct,0.0077375906947642166
+missingindicator_lag_taxa,0.0077375906947642166
+missingindicator_lag_media_regiao,0.0077375906947642166
+missingindicator_lag_diff_vs_media_ufs,0.0077375906947642166
+missingindicator_lag_media,0.0077375906947642166

@@ -1,0 +1,7 @@
+hipotese,teste,n,estatistica,p_valor,conclusao,H0
+H1 regiões diferem (2023),Kruskal-Wallis,24,5.966222222222228,0.20168505923428542,"não rejeita H0 (p>=0,05)",a taxa tem a mesma distribuição em todas as regiões
+H1 regiões diferem (2024),Kruskal-Wallis,25,4.678974358974358,0.3218499218293766,"não rejeita H0 (p>=0,05)",a taxa tem a mesma distribuição em todas as regiões
+H2 persistência 2023→2024,Spearman (rho=0.85),24,0.8478260869565216,1.6969519414972827e-07,"rejeita H0 (p<0,05)",não há associação entre a taxa de 2023 e a de 2024
+H3 mudança sistemática 2023→2024,Wilcoxon pareado,24,51.0,0.0035042762756347656,"rejeita H0 (p<0,05)",a mediana das diferenças 2024−2023 é zero
+H4 estadual ≠ municipal (2024),Wilcoxon pareado,24,93.0,0.10738253593444824,"não rejeita H0 (p>=0,05)",estadual e municipal têm a mesma mediana na mesma UF
+H5 estadual mais volátil que municipal,Wilcoxon pareado em |Δ|,22,98.0,0.3705310821533203,"não rejeita H0 (p>=0,05)",a magnitude da variação é a mesma nas duas redes
