@@ -172,9 +172,3 @@ Como ler:
 3. Mais ciclos históricos para validação temporal real (treinar em t, testar em t+1) e intervalos de confiança.
 4. Calibração de probabilidades e modelos hierárquicos (UF/rede) com incerteza explícita.
 5. Rodar SHAP e análise de equidade; acompanhamento contínuo (monitoramento de *drift*).
-
-## 13. Versionamento (Git)
-O histórico foi organizado em **branches de funcionalidade** (`feature/preprocessing`, `feature/eda`, `feature/modelagem`,
-`feature/interpretabilidade`, `feature/clusters-e-risco`, `docs/readme-e-decisoes`), integradas na `main` com *merge commits*.
-As decisões analíticas estão em `docs/decisoes_analiticas.md`. **Pull Requests e comentários de revisão precisam ser abertos
-no GitHub pela equipe** (o histórico local não os contém): faça `git remote add origin …`, envie as branches e abra um PR por branch.
